@@ -2,16 +2,115 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Asvenss2 – My Personal Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Annika Svensson – Personal Website</title>
   <style>
-    body { font-family: sans-serif; max-width: 600px; margin: 40px auto; padding: 20px; }
-    h1 { color: #2c3e50; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fefefe;
+      color: #1c1c1c;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #002c6d; /* Notre Dame Blue */
+      color: #f7c62f; /* Notre Dame Gold */
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: #f7c62f;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #002c6d;
+      border-bottom: 2px solid #f7c62f;
+      padding-bottom: 0.3rem;
+    }
+
+    ul {
+      line-height: 1.8;
+    }
+
+    .goals li {
+      list-style-type: '☑ ';
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #002c6d;
+      color: white;
+      margin-top: 2rem;
+    }
+
+    a.button {
+      background-color: #f7c62f;
+      color: #002c6d;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
-  <h1>Hello, I'm Annika Svensson </h1>
-  <p>Welcome to my personal website! I'm doing extra credit for my systems programming class by using GitHub Pages to make a personal website.</p>
-  <p>Contact: <a href="mailto:asvenss2@nd.edu">asvenss2@nd.edu</a></p>
+
+  <header>
+    <h1>Annika Svensson</h1>
+    <p>Notre Dame '27 – Computer Science | Consultant | Athlete | Researcher</p>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#goals">Goals</a>
+      <a href="https://www.linkedin.com/in/annika-svensson2" target="_blank">LinkedIn</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a Computer Science major at the University of Notre Dame with a strong drive for impact, innovation, and exploration. Whether I'm building athlete performance apps in biomechanics research, presenting central bank digital currency solutions to Visa execs, or mentoring students in faith and leadership programs, I bring curiosity, perseverance, and heart into every project.</p>
+
+    <p>I love running marathons, sailing, espresso, and solving real-world problems through code. I believe in stepping outside my comfort zone and leading with purpose.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Powerful Means Initiative (Uganda):</strong> Helped design impact-driven business models for a vocational school; scoped projects for local women entrepreneurs.</li>
+      <li><strong>Visa CBDC Project:</strong> Proposed a blockchain-based central bank digital currency to Visa’s board as part of a fintech innovation cohort.</li>
+      <li><strong>Notre Dame Football Recruiting:</strong> Built analytics for 100m/200m sprint data to identify undervalued recruits.</li>
+      <li><strong>Fantasy Track & Field App:</strong> Developed a point-based fantasy scoring app using MATLAB and Selenium WebDriver to automate performance tracking.</li>
+    </ul>
+  </section>
+
+  <section id="goals">
+    <h2>Goals Checklist</h2>
+    <ul class="goals">
+      <li>✔ Graduate with honors in Computer Science from Notre Dame</li>
+      <li>✔ Complete an international consulting trip (Kalongo, Uganda ✅)</li>
+      <li>✔ Compete in college-level track or marathon events</li>
+      <li>□ Intern at a space tech or AI-focused company</li>
+      <li>□ Lead a startup or engineering team by 30</li>
+      <li>□ Sail the East Coast with my dad 🛥️</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Annika Svensson | <a class="button" href="mailto:asvenss2@nd.edu">Contact Me</a></p>
+  </footer>
 </body>
 </html>
+
